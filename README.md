@@ -26,6 +26,7 @@ DB_ACCESS_URL="mongodb+srv://${MAHJONG_DB_USER}:${MAHJONG_DB_PASS}@${MAHJONG_DB_
 
 
 ## ユニットテスト
+全部は書いてない。とりあえず枠組みだけ。
 `python -m pytest tests`
 
 ## 注意事項
