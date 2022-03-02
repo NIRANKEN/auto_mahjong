@@ -1,5 +1,9 @@
-Memo.md
-resouces/*
-.pytest_cache
+# ignore specific .ext
+*.png
+*.wav
 *.log
-*/__pycache__/*
+
+# ignore specific files and directories
+/Memo.md
+/.pytest_cache
+**/__pycache__/**
