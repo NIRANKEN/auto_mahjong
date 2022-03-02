@@ -13,7 +13,7 @@ Try Freeで無料アカウント作ってReadWrite権限もっているユーザ
 - MAHJONG_DB_PASS
 - MAHJONG_DB_CLUSTER
 
-DBアクセスURLを下記のように作ってます。
+[上記の環境変数を利用して、DBアクセスURLを下記のように作ってます。](https://github.com/NIRANKEN/auto_mahjong/blob/main/app/dao/pymongo_client.py#L21-L23)
 ```
 DB_ACCESS_URL="mongodb+srv://${MAHJONG_DB_USER}:${MAHJONG_DB_PASS}@${MAHJONG_DB_CLUSTER}.mongodb.net/myFirstDatabase"
 ```
