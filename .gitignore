@@ -2,3 +2,4 @@ Memo.md
 resouces/*
 .pytest_cache
 *.log
+*/__pycache__/*
