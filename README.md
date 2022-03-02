@@ -18,6 +18,11 @@ Try Freeで無料アカウント作ってReadWrite権限もっているユーザ
 DB_ACCESS_URL="mongodb+srv://${MAHJONG_DB_USER}:${MAHJONG_DB_PASS}@${MAHJONG_DB_CLUSTER}.mongodb.net/myFirstDatabase"
 ```
 ### リソースの準備
+
+#### pulseaudioのインストール
+Windows版は、下記リンクの"zipfile containing preview binaries"のリンクから取得する。
+https://www.freedesktop.org/wiki/Software/PulseAudio/Ports/Windows/Support/
+
 画像認識用のファイル(下記参照)を`/resources`配下に入れてください。
 `MAN1.png`や`REACH.png`などを作ってひたすら入れる感じです。
 - https://github.com/NIRANKEN/auto_mahjong/blob/main/app/models/enums/mahjong_tiles.py
